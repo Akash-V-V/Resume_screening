@@ -331,8 +331,8 @@ def main():
             url = "https://indeed12.p.rapidapi.com/jobs/search"
 
             headers = {
-                'x-rapidapi-key': "8bd10a36acmsh5fa0ba514f09845p151cf8jsnbbdd14f65e27",
-                'x-rapidapi-host': "indeed12.p.rapidapi.com"
+                'x-rapidapi-key': "Your API",
+                'x-rapidapi-host': "Your API"
             }
 
             # Include skills in the query parameter
@@ -541,4 +541,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
